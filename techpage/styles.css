@@ -1,0 +1,197 @@
+html, body {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: rgb(218, 218, 248);
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto',
+    'Helvetica Neue', Arial, sans-serif;
+  color: rgb(46, 3, 46);
+  scroll-behavior: smooth;
+}
+#topbottom {
+  background-color: rgb(96, 45, 124);
+  text-align: left;
+  padding: 2rem 1rem;
+  color: whitesmoke;
+  font-size: 2rem;
+  font-weight: 600;
+  width: 100%;
+  display:block;
+}
+h1 {
+  color: rgb(46, 3, 46);
+  font-size: 3.5rem;
+  text-align: center;
+}
+#beginning {
+display: block;
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  font-weight: 600;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  white-space: nowrap;
+  overflow: hidden;
+}
+table {
+  border-collapse: collapse;
+  width: 80%;
+  margin: 3rem auto;
+}
+
+th, td {
+  border: 4px solid rgb(96, 45, 124);
+  padding: 6px 10px;      
+  line-height: 1.6rem;
+  vertical-align: top;    
+  overflow-wrap: break-word; 
+}
+
+td ul {
+  margin: 0;           
+  padding-left: 5px;   
+  list-style-position: inside; 
+}
+
+a:hover {
+  color: blue;
+  text-decoration: none;
+}
+a {
+  color: rgb(180, 63, 178);;
+  text-decoration: none;
+}
+a:active {
+  color: red;
+  text-decoration: none;
+}
+.definition {
+  font-weight: 700;
+  font-size: 2rem;
+  margin-top: 2rem;
+}
+.container {
+  display: flex;
+  justify-content:space-around; 
+  align-items: flex-start;
+  padding: 1rem;
+  max-width: 100%;
+}
+#main-doc {
+  max-width: 1000px;
+  width: 80%;
+}
+#navbar {
+  position: sticky;
+  height: fit-content;
+  top: 10%;
+  width: 20%;
+  padding: 1rem;
+  border-left: 4px solid rgb(96, 45, 124);
+}
+.bullet {
+ list-style-type: none;
+ margin: 1rem;
+}
+#navbarstart {
+  font-weight: 500;
+  margin: 1rem;
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+ul {
+padding-left: 0; 
+margin-left: 0;
+}
+.explanation {
+  font-size: 1rem;
+  line-height: 1.5rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+.image {
+  width: 30%;
+  height: auto;
+  max-width: 600px; 
+  margin: 2rem auto; 
+  display: block; 
+  border-radius: 1rem;
+}
+.image2 {
+  width: 70%;
+  height: auto;
+  max-width: 700px; 
+  margin: 2rem auto; 
+  display: block; 
+  border-radius: 1rem;
+}
+.code-block {
+  background-color: rgb(170, 168, 168);     
+  border: 3px solid ;        
+  border-radius: 6px;            
+  padding: 0.8rem;                 
+  font-family: Consolas, Monaco, 'Courier New', monospace;
+  font-size: 0.8rem;
+  line-height: 1.5;                     
+  color: #333; 
+  width: fit-content;
+  max-width: 80%;   
+  margin: 2rem auto; 
+  overflow: hidden;          
+}
+.heading {
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+@media (max-width: 700px) {
+  * {
+    font-size: 80%;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+th, td {
+  border: 2px solid rgb(96, 45, 124);
+  padding: 6px 10px;      
+  line-height: 1.6rem;
+  vertical-align: top;    
+  overflow-wrap: break-word; 
+}
+table {
+  width: 95%;
+  margin: 2rem auto;
+}
+#beginning {
+  width: 95%;
+  margin: auto 1rem;
+  text-align: left;
+  white-space: unset;
+  overflow-wrap: break-word;
+}
+#main-doc {
+  width: 95%;
+  margin-left: 10px;
+}
+.code-block {     
+  border: 1px solid ;                   
+  padding: 0.5rem;                 
+  font-size: 1rem;
+  line-height: 1.2rem;                     
+  overflow-x: auto;      
+}
+h1 {
+  font-size: 2.5rem;
+  margin: 1rem auto;
+}
+#navbar {
+  position: static;
+  line-height: 10px;
+  border-left: 2px solid rgb(96, 45, 124);
+  width: 80%;
+  order: -1;
+  padding: 0.5rem;
+  font-size: 7vw;
+  white-space: nowrap;
+}
+  }
